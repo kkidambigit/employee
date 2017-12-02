@@ -5,13 +5,11 @@
  *
  * @author K kiran
  */
-class Department {
+class Department extends Model {
     
-    private $tableName = 'departments';
+    private $deptId;
     
-    private $id;
-    
-    private $name;
+    private $deptName;
     
     public function __construct(array $data = []) {
         foreach($data as $key => $value) {
@@ -20,10 +18,10 @@ class Department {
     }
     
     public function getId() {
-        return $this->id;
+        return $this->deptId;
     }
     
     public function getName() {
-        return $this->name;
+        return $this->deptName;
     }
 }
