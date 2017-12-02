@@ -1,5 +1,6 @@
 <?php
 echo 'here Index file';
+echo 'Another Echo'
 /*
 require_once('models/DatabaseInterface.php');
 require_once('models/DatabaseMysqli.php');
