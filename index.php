@@ -1,5 +1,6 @@
 <?php
-
+echo 'here Index file';
+/*
 require_once('models/DatabaseInterface.php');
 require_once('models/DatabaseMysqli.php');
 //require_once('models/DatabaseAdapter.php');
@@ -125,3 +126,4 @@ foreach ($employees as $key => $employee) {
     echo $employee->getId() . ' -- ' . $employee->getFirstName() . ' -- ' . $employee->department()->getName();
     echo '<br>';
 }
+*/
